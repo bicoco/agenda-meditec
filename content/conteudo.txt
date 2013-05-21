@@ -1,0 +1,108 @@
+<div class="filtro">
+				<input type="text" class="search" placeholder="Search..." value="">
+			</div>
+			<section>
+				<h2 class="periodo">Dia 20 - 08h00 às 12h00</h2>
+				<ul class="cursos">
+					<li>
+						<article>
+							<span>MC01</span>
+							<h1 class="titulo">Criação de Filas no Oracle e manipulação do processo de inserção e consumo via MDB</h1>
+							<span class="palestrante">Orlando Pamplona Eing</span>
+							<span class="local">Laboratório L15</span>
+						</article>
+					</li>
+					<li>
+						<article>
+							<span>MC02</span>
+							<h1 class="titulo">Versionamento de projetos com SVN utilizando keywords, tags e automatização</h1>
+							<span class="palestrante">Cristiano Marcos Lunkes</span>
+							<span class="local">Laboratório L18</span>
+						</article>
+					</li>
+					<li>
+						<article>
+							<span>MC03</span>
+							<h1 class="titulo">Programação de Alto Desempenho em processadores multicore</h1>
+							<span class="palestrante">Lucas Ferrari de Oliveira</span>
+							<span class="local">Laboratório L16</span>
+						</article>
+					</li>
+					<li>
+						<article>
+							<span>MC04</span>
+							<h1 class="titulo">JavaFX2</h1>
+							<span class="palestrante">Filipe Portes</span>
+							<span class="local">Laboratório L13</span>
+						</article>
+					</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2 class="periodo">Dia 20 - 13h30 às 17h30</h2>
+				<ul class="cursos">
+					<li>
+						<article>
+							<span>MC05</span>
+							<h1 class="titulo">Desenvolvimento de aplicativos para IPhone: Um pontapé inicial</h1>
+							<span class="palestrante">João Roberto de Godoy Sampaio</span>
+							<span class="local">Laboratório L18</span>
+						</article>
+					</li>
+					<li>
+						<article>
+							<span>MC06</span>
+							<h1 class="titulo">Desenvolvimento em .Net</h1>
+							<span class="palestrante">Everton Coimbra de Araújo</span>
+							<span class="local">Laboratório L16</span>
+						</article>
+					</li>
+					<li>
+						<article>
+							<span>MC07</span>
+							<h1 class="titulo">Programação com Scala</h1>
+							<span class="palestrante">Paulo "jCranky" Siqueira</span>
+							<span class="local">Laboratório L17</span>
+						</article>
+					</li>
+					<li>
+						<article>
+							<span>MC08</span>
+							<h1 class="titulo">JSF2</h1>
+							<span class="palestrante">Filipe Portes</span>
+							<span class="local">Laboratório L15</span>
+						</article>
+					</li>
+				</ul>
+			</section>
+
+			<section class="palestras">
+				<h2 class="periodo">Dia 20 - 19h00 às 22h00</h2>
+				<ul>
+					<li>
+						<article>
+							<span>PL01</span>
+							<h1 class="titulo">Abertura</h1>
+							<span class="palestrante">Coordenação</span>
+							<span class="local">Auditório Bloco A</span>
+						</article>
+					</li>
+					<li>
+						<article>
+							<span>PL02</span>
+							<h1 class="titulo">Integrações de Sistema de forma não invasiva</h1>
+							<span class="palestrante">Fabrício Magnoni</span>
+							<span class="local">Auditório Bloco A</span>
+						</article>
+					</li>
+					<li>
+						<article>
+							<span>PL03</span>
+							<h1 class="titulo">O Blender e o software livre na arqueologia</h1>
+							<span class="palestrante">Cícero André da Costa Moraes</span>
+							<span class="local">Auditório Bloco A</span>
+						</article>
+					</li>
+				</ul>
+			</section>

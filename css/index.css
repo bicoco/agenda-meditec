@@ -1,0 +1,243 @@
+/** Elementos padrão */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f3f3f3;
+	color: #333;
+}
+
+h1, h2 {
+	font-size: 40px;
+}
+
+ol, ul {
+	text-align: center;
+}
+
+ol li, ul li {
+	text-align: left;
+}
+
+/** Limita o tamanho e alinha o conteúdo ao centro */
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+/** ------------- Cabeçalho */
+header {
+	height: 50px;
+}
+
+header h1 {
+	color: #444;
+	font-size: 32px;
+	padding: 9px 15px;
+	font-weight: bold;
+	text-shadow: 0 0 4px #777;
+}
+
+/** ------------- Busca */
+.filtro {
+	padding: 0 20px;
+	text-align: right;
+}
+
+.filtro input {
+	-background: url("../img/search.png") no-repeat scroll right center #f2f2f2;
+    border: 1px solid #aaa;
+    margin-top: 11px;
+    padding: 3px 8px;
+    width: 100px;
+    outline: hidden;
+    
+    -webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	        transition: all 0.3s;
+}
+
+.filtro input:focus {
+	background-color: #fdfdfd;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+	width: 200px;
+	outline: none;
+}
+
+/** ------------- Destaque */
+.destaque {
+	padding: 20px 0;
+	box-shadow: 0 0 10px #6B7;
+	background: -webkit-linear-gradient(#2B7, #5E7, #6B7);
+	background:    -moz-linear-gradient(#2B7, #5E7, #6B7);
+	background:         linear-gradient(#2B7, #5E7, #6B7);
+}
+
+.destaque,
+.destaque .container {
+	overflow: hidden;
+}
+
+.destaque .logo {
+	float: left;
+	-width: 50%;
+}
+
+.destaque .texto {
+	color: #444;
+	-float: right;
+	-width: 48%;
+	font-size: 44px;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-align: center;
+	text-shadow: 0 0 8px #777;
+}
+
+/** ------------- Conteúdo */
+.conteudo.container {
+	box-shadow: 0 4px 10px #ccc;
+}
+
+.conteudo > section {
+	padding: 0 5px 10px;
+}
+
+.periodo {
+	margin: 10px 0;
+	padding: 10px 0;
+	font-size: 32px;
+	border-bottom: 1px dashed #aaa;
+}
+
+.cursos li,
+.palestras li {
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.cursos li {
+	width: 190px;
+}
+
+.palestras li {
+	width: 255px;
+}
+
+.cursos .local,
+.palestras .local,
+.cursos .titulo,
+.palestras .titulo,
+.cursos .palestrante,
+.palestras .palestrante {
+	margin-top: 10px;
+	font-size: 100%;
+}
+
+.cursos .titulo {
+	min-height: 5em;
+}
+
+.palestras .titulo {
+	min-height: 3em;
+}
+
+.cursos .titulo,
+.palestras .titulo {
+	font-weight: bold;
+}
+
+.cursos .palestrante,
+.palestras .palestrante {
+	min-height: 2em;
+	font-style: italic;
+}
+
+.cursos article,
+.palestras article {
+	padding: 5px;
+	background: #fff;
+	text-shadow: 1px 1px 1px #ccc;
+
+	-webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.25);
+	   -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.25);
+	        box-shadow: 0 1px 2px 0 rgba(0,0,0,0.25);
+
+	-webkit-transition: all 0.25s ease;
+	   -moz-transition: all 0.25s ease;
+	     -o-transition: all 0.25s ease;
+	        transition: all 0.25s ease;
+}
+
+.cursos article:hover,
+.palestras article:hover {
+
+	-webkit-box-shadow: 0 0 5px 2px #2cacdb;
+	   -moz-box-shadow: 0 0 5px 2px #2cacdb;
+	        box-shadow: 0 0 5px 2px #2cacdb;
+
+	-webkit-transition: all 0.2s ease-in-out;
+	   -moz-transition: all 0.2s ease-in-out;
+	        transition: all 0.2s ease-in-out;
+}
+
+.cursos article span,
+.palestras article span {
+	display: block;
+}
+
+/** ------------- Rodapé */
+footer {
+	color: #fff;
+	min-height: 200px;
+	background-color: #2d2d2d;
+	box-shadow: 0 -1px 5px #2d2d2d;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+footer h2 {
+	font-size: 1.8em;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding: 0 5px 10px;
+	text-align: center;
+	border-bottom: 1px dashed #999;
+	text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+}
+
+footer li h3 {
+	font-size: 2em;
+}
+
+footer li h4 {
+	font-size: 1.2em;
+}
+
+footer .container {
+	padding: 20px 0 50px;	
+}
+
+footer .palestrantes li {
+	width: 384px;
+	padding: 5px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+footer .palestrantes img {
+	width: 65px;
+	float: left;
+	margin-right: 10px;
+	border: 1px solid #aaa;
+}
+
+footer .palestrantes a {
+	font-variant: small-caps;
+	text-decoration: none;
+	font-weight: bold;
+	color: #f2f2f2;
+}
+
+footer .palestrantes a:hover {
+	color: #2cacdb;
+}
