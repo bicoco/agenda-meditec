@@ -1,4 +1,0 @@
-<img src="img/meditec.png" class="logo" alt="Meditec 2013"/>
-				<p class="texto">
-					20 a 22 <br> Maio 2013 <br> UTFPR <br> Câmpus <br> Medianeira
-				</p>

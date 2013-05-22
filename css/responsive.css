@@ -1,0 +1,165 @@
+/** -------------- Layout Fluído */
+
+/** Para teste da primeira técnica */
+/* 
+.container {
+	width: 62%;
+}
+*/
+header {
+	height: auto;
+}
+
+header h1 {
+	font-size: 2em;
+}
+
+.cursos li {
+	width: 23.7%;
+}
+
+.palestras li {
+	width: 32.4%;
+}
+
+footer .palestrantes li {
+	width: 48%;
+}
+
+/** -------------- Imagens Flexíveis */
+img {
+	max-width: 100%;
+}
+
+/** -------------- Media Queries */
+
+/** Abaixo da resolução mínima do site */
+@media(max-width: 810px) {
+	.container {
+		width: auto; /** ok */
+	}
+
+	header {
+		text-align: center; /** ok */
+	}
+
+	.destaque {
+		padding: 5px 0; /** ok */
+	}
+
+	.cursos li {
+		width: 48.7%; /** ok */
+	}
+
+	footer .palestrantes img {
+		width: 45px;
+	}
+}
+
+/**
+ * Quebra do rodapé
+ * 1 coluna de palestrantes
+ */
+@media(max-width: 615px) {
+	footer .palestrantes li {
+		width: auto;
+		display: block;
+		overflow: hidden;
+	}
+
+	footer .palestrantes img {
+		width: 33px;
+	}
+
+	.destaque .texto {
+		font-size: 40px;
+	}
+}
+
+/**
+ * Quebra do texto de destaque
+ * 1 coluna de palestras
+ */
+@media(max-width: 500px) {
+	.palestras li {
+		width: auto;
+		display: block;
+	}
+	.palestras .titulo,
+	.palestras .palestrante {
+		min-height: auto;
+	}
+	.destaque .container {
+		text-align: center;
+	}
+	.destaque .logo {
+		float: none;
+	}
+}
+
+/** Diminuindo as fontes */
+@media(max-width: 440px) {
+	header h1 {
+		font-size: 24px;
+	}
+
+	.periodo {
+		font-size: 28px;
+	}
+
+	footer h2 {
+		font-size: 1.2em;
+	}
+
+	footer .palestrantes h3 {
+		font-size: 1.3em;
+	}
+
+	footer .palestrantes h4 {
+		font-size: 1em;
+	}
+}
+
+/** 1 coluna de cursos */
+@media(max-width: 400px) {
+	.cursos li {
+		width: auto;
+		display: block;
+	}
+	.cursos .titulo,
+	.cursos .palestrante {
+		min-height: auto;
+	}
+}
+
+/** Diminuindo as fontes */
+@media(max-width: 380px) {
+	header h1 {
+		font-size: 20px;
+	}
+	.destaque .texto {
+		font-size: 24px;
+	}
+	.periodo {
+		font-size: 24px;
+	}
+}
+
+/** Ajuste fino */
+@media (min-width: 810px) {
+	.cursos li:not(:last-child) {
+		margin-right: 5px;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 810px) {
+	.cursos li:nth-child(2n+1) {
+		margin-right: 5px;
+	}	
+}
+
+@media (min-width: 615px) and (max-width: 810px) {
+	footer li h4 {
+		clear: both;
+	}
+}
