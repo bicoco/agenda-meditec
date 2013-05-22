@@ -5,13 +5,12 @@ Projeto utilizado na apresentação do mini-curso de introdução às práticas 
 
 Autores:
 
-Anderson Rodrigo Davi - [andersonrdavi@gmail.com]
-Régis Eduardo Weizenmann Gregol - [regiseduardogregol@gmail.com]
+Anderson Rodrigo Davi - andersonrdavi@gmail.com .
+Régis Eduardo Weizenmann Gregol - regiseduardogregol@gmail.com .
 
 Visualize a página aqui:
-http://agendameditec.herokuapp.com/index.html
+http://agendameditec.herokuapp.com/index.html .
 e a mesma página, utilizando as práticas:
-http://agendameditec.herokuapp.com/responsivo.html
-
+http://agendameditec.herokuapp.com/responsivo.html .
 a apresentação (slides) está disponível em:
-https://speakerdeck.com/regiseduardogregol/introducao-as-praticas-de-desenvolvimento-web-com-design-responsivo
+https://speakerdeck.com/regiseduardogregol/introducao-as-praticas-de-desenvolvimento-web-com-design-responsivo 
