@@ -9,8 +9,9 @@ Anderson Rodrigo Davi - [andersonrdavi@gmail.com]
 Régis Eduardo Weizenmann Gregol - [regiseduardogregol@gmail.com]
 
 Visualize a página aqui:
-[http://agendameditec.herokuapp.com/index.html]
+http://agendameditec.herokuapp.com/index.html
 e a mesma página, utilizando as práticas:
-[http://agendameditec.herokuapp.com/responsivo.html]
-e pode ver os slides em:
-[https://speakerdeck.com/regiseduardogregol/introducao-as-praticas-de-desenvolvimento-web-com-design-responsivo]
+http://agendameditec.herokuapp.com/responsivo.html
+
+a apresentação (slides) está disponível em:
+https://speakerdeck.com/regiseduardogregol/introducao-as-praticas-de-desenvolvimento-web-com-design-responsivo
